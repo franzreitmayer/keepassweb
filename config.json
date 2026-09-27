@@ -1,0 +1,10 @@
+{
+  "files": [
+    {
+      "storage": "webdav",
+      "name": "Test Passwörter",
+      "path": "https://pwd.reitmayer.eu/data/test.kdbx"
+    }
+  ],
+  "showOnlyFilesFromConfig": true
+}
