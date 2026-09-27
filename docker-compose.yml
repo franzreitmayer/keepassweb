@@ -1,0 +1,9 @@
+services:
+  keeweb:
+    image: antelle/keeweb
+    container_name: keeweb
+    restart: unless-stopped
+    ports:
+      - "8080:80"
+    volumes:
+      - ./data:/usr/share/nginx/html/data
