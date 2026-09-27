@@ -4,6 +4,7 @@ services:
     container_name: keeweb
     restart: unless-stopped
     ports:
-      - "8080:80"
+      - "8844:80"
     volumes:
       - ./data:/usr/share/nginx/html/data
+      - ./keeweb.conf:/etc/nginx/conf.d/keeweb.conf:ro
