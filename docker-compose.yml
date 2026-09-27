@@ -7,4 +7,5 @@ services:
       - "8844:80"
     volumes:
       - ./data:/keeweb/data
+      - ./config.json:/keeweb/config.json:ro
       - ./keeweb.conf:/etc/nginx/conf.d/keeweb.conf:ro
